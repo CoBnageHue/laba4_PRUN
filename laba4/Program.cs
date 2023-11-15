@@ -35,7 +35,7 @@ namespace laba4
             var index = (Array.IndexOf(result, result.Max()) + 1);
             var result_index = Math.Round(result.Max(), 3);
 
-            sw.WriteLine("Коэфициент конкордации всей группы R = " + Math.Round(r_all, 3) + ", наиболее согласованная группа - без эксперта е_"
+            sw.WriteLine("Коэффициент конкордации всей группы R = " + Math.Round(r_all, 3) + ", наиболее согласованная группа - без эксперта е_"
                 + index + ", R_" + index + " = " + result_index);
             sw.WriteLine();
             sw.Close();
